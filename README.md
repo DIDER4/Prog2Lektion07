@@ -52,6 +52,7 @@ Vi skulle bruge en af de to regler 9 gange før vi endte i mål.
 Skriv et rekursiv metode der returnerer, hvor mange gange vi har benyttet en af de to regler.
 
 Kan vi være sikre på at vi altid ender med 1 for alle positive heltal?
+
 https://youtu.be/094y1Z2wpJg?si=d26AMYoXLriLZSnl
 
 ## Opgave 4
