@@ -10,6 +10,17 @@ public class Main {
     }
 
     private static int numberOfEvenNumbers(ArrayList<Integer> integers) {
-        return 0;
+        return helpMethod(integers, 0, 0);
+    }
+
+    private static int helpMethod(ArrayList<Integer> integers, int index, int evenNumbers) {
+        if (index >= integers.size()) {
+            return evenNumbers;
+        }
+        if (integers.get(index) % 2 == 0) {
+            evenNumbers++;
+        }
+        return helpMethod(integers, index + 1, evenNumbers);
+
     }
 }
